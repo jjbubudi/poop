@@ -1,6 +1,7 @@
 export const enum PoopType {
   Normal = "normal",
   Liquid = "liquid",
+  Little = "little",
   Nothing = "nothing"
 }
 

@@ -22,6 +22,7 @@ describe("Poop", () => {
 
   test.each([
     { type: PoopType.Normal, name: /Normal/ },
+    { type: PoopType.Little, name: /Little/ },
     { type: PoopType.Liquid, name: /Liquid/ },
     { type: PoopType.Nothing, name: /Nothing/ }
   ])(`should record "$type" poop`, async ({ type, name }) => {

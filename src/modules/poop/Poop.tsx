@@ -59,6 +59,9 @@ export const Poop: React.FC = () => {
                   <Radio value={PoopType.Liquid}>
                     {TypeToName[PoopType.Liquid]}
                   </Radio>
+                  <Radio value={PoopType.Little}>
+                    {TypeToName[PoopType.Little]}
+                  </Radio>
                   <Radio value={PoopType.Nothing}>
                     {TypeToName[PoopType.Nothing]}
                   </Radio>
